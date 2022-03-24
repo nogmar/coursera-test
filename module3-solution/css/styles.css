@@ -2,12 +2,10 @@
 border-width: 5px;
 border-color: black;
 border-radius: 0px;
-
-
 }
 
 .container-fluid {
-	background-color: gray;
+    background-color: gray;
     padding: 0px;
 }
 
