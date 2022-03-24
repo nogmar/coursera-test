@@ -1,5 +1,5 @@
 .navbar-default {
-border-width: 4px;
+border-width: 5px;
 border-color: black;
 border-radius: 0px;
 
@@ -8,8 +8,7 @@ border-radius: 0px;
 
 .container-fluid {
 	background-color: gray;
-    padding: 0;
-
+    padding: 0px;
 }
 
 .navbar-default .navbar-brand {
@@ -17,8 +16,10 @@ border-radius: 0px;
     font-weight: bold;
     font-size: x-large;
     background-color: gray;
-    
+}
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
 }
 
 h1,h2 {
@@ -37,6 +38,7 @@ hr {
     border-width: 4px;
     width: 100%;
     background-color: white;
+    padding: 0;
     }
 
 .navbar-default .navbar-toggle .icon-bar {
